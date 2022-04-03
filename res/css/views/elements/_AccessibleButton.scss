@@ -89,8 +89,8 @@ limitations under the License.
     }
 
     &.mx_AccessibleButton_kind_primary {
-        color: $button-primary-fg-color;
-        background-color: $accent;
+        color: black;
+        background: linear-gradient(0deg, rgba(45,250,200,1) 0%, rgba(61,150,184,1) 100%);
     }
 
     &.mx_AccessibleButton_kind_primary_outline {

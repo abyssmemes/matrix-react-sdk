@@ -21,15 +21,15 @@ $quaternary-content: #c1c6cd;
 $quinary-content: #E3E8F0;
 
 $system: #F4F6FA;
-$background: #ffffff;
-
+$background: linear-gradient(155deg, rgba(50, 57, 65, 1) 0%, rgba(22, 23, 27, 1) 100%);
+$background-button: linear-gradient(0deg, rgba(45,250,200,1) 0%, rgba(61,150,184,1) 100%);
 $panels: rgba($system, 0.9);
 $panel-selected: rgba($tertiary-content, 0.3);
 $panel-hover: rgba($tertiary-content, 0.1);
 $panel-actions: rgba($tertiary-content, 0.2);
 $space-nav: rgba($tertiary-content, 0.15);
 
-$accent: #0DBD8B;
+$accent: #00fffd;
 $alert: #FF5B55;
 $links: #0086e6;
 
@@ -59,10 +59,10 @@ $icon-button-color: $quaternary-content;
 $selection-fg-color: $background;
 $yellow-background:  #fff8e3;
 $secondary-accent-color: #f2f5f8;
-$button-fg-color: $background;
+$button-fg-color: black;
 $neutral-badge-color: #dbdbdb;
 $strong-input-border-color: #c7c7c7;
-$preview-widget-bar-color: #dddddd;
+$preview-widget-bar-color: #323941;
 $accent-fg-color: $background;
 $accent-alt: #238CF5;
 $info-plinth-fg-color: #888;
@@ -71,7 +71,7 @@ $info-plinth-fg-color: #888;
 // Colors that aren't in Figma - we need to get rid of these
 // ********************
 $dark-panel-bg-color: $secondary-accent-color;
-$muted-fg-color: #61708b;
+$muted-fg-color: #fff;
 $light-fg-color: #747474;
 $focus-bg-color: $preview-widget-bar-color;
 $info-plinth-bg-color: #f7f7f7;
@@ -151,7 +151,7 @@ $input-fg-color: rgba(74, 74, 74, 0.9);
 
 // Dialog
 // ********************
-$dialog-title-fg-color: #45474a;
+$dialog-title-fg-color: #fff;
 $dialog-backdrop-color: rgba(46, 48, 51, 0.38);
 $dialog-close-fg-color: #c1c1c1;
 $dialog-close-external-color: $background;
@@ -203,7 +203,7 @@ $togglesw-ball-color: $background;
 
 // Authpage
 // ********************
-$authpage-primary-color: #232f32;
+$authpage-primary-color: #fff;
 $authpage-bg-color: #2e3649;
 $authpage-modal-bg-color: $roomlist-bg-color;
 $authpage-focus-bg-color: $focus-bg-color;
@@ -315,7 +315,7 @@ $location-live-secondary-color: #deddfd;
     font-family: $font-family;
     font-size: $font-14px;
     color: $button-fg-color;
-    background-color: $accent;
+    background: linear-gradient(0deg, rgba(45,250,200,1) 0%, rgba(61,150,184,1) 100%);;
     width: auto;
     padding: 7px;
     padding-left: 1.5em;
@@ -343,7 +343,7 @@ $location-live-secondary-color: #deddfd;
     font-weight: 600;
     border: 1px solid $accent !important;
     color: $accent;
-    background-color: $button-secondary-bg-color;
+    background: linear-gradient(0deg, rgba(45,250,200,1) 0%, rgba(61,150,184,1) 100%);;
 }
 
 @define-mixin mx_Dialog_link {
@@ -362,3 +362,8 @@ $location-live-secondary-color: #deddfd;
     background: #fdd;
 }
 // ********************
+button, input[type="submit"] {
+    background: $background-button !important;
+    color: black !important;
+    border-radius: 40px !important;
+}

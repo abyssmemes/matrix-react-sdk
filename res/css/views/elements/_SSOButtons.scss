@@ -20,6 +20,7 @@ limitations under the License.
     justify-content: center;
 
     .mx_SSOButtons_row {
+        display: none;
         & + .mx_SSOButtons_row {
             margin-top: 16px;
         }

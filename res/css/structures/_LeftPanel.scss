@@ -203,7 +203,7 @@ $roomListCollapsedWidth: 68px;
                     background-color: $tertiary-content;
 
                     &::before {
-                        background-color: $background;
+                        background: $background;
                     }
                 }
             }

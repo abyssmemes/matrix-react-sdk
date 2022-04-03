@@ -22,9 +22,9 @@ limitations under the License.
     min-width: 0;
     position: relative;
     margin: 1em 0;
-    border-radius: 4px;
+    border-radius: 40px;
     transition: border-color 0.25s;
-    border: 1px solid $input-border-color;
+    border: 1px solid $accent;
 }
 
 .mx_Field_prefix {
@@ -47,7 +47,7 @@ limitations under the License.
     border-radius: 4px;
     padding: 8px 9px;
     color: $primary-content;
-    background-color: $background;
+    background: $background;
     flex: 1;
     min-width: 0;
 }
@@ -73,7 +73,7 @@ limitations under the License.
 }
 
 .mx_Field:focus-within {
-    border-color: $accent-alt;
+    border-color: $accent;
 }
 
 .mx_Field input:focus,
@@ -129,14 +129,14 @@ limitations under the License.
     font-size: $font-10px;
     transform: translateY(-13px);
     padding: 0 2px;
-    background-color: $background;
+    background: $background;
     pointer-events: initial;
 }
 
 .mx_Field input:focus + label,
 .mx_Field select:focus + label,
 .mx_Field textarea:focus + label {
-    color: $accent-alt;
+    color: $accent;
 }
 
 .mx_Field select:disabled,
@@ -145,7 +145,7 @@ limitations under the License.
 .mx_Field input:disabled + label,
 .mx_Field textarea:disabled,
 .mx_Field textarea:disabled + label {
-    background-color: $background;
+    background: $background;
     color: $info-plinth-fg-color;
 }
 
