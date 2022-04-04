@@ -227,7 +227,7 @@ legend {
 
 /*** panels ***/
 .dark-panel {
-    background-color: $dark-panel-bg-color;
+    background: linear-gradient(155deg, rgba(50, 57, 65, 1) 0%, rgba(22, 23, 27, 1) 100%);
 
     :not(.mx_textinput):not(.mx_Field):not(.mx_no_textinput) > input[type=text],
     :not(.mx_textinput):not(.mx_Field):not(.mx_no_textinput) > input[type=search],

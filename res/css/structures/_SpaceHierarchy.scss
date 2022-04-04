@@ -273,7 +273,7 @@ limitations under the License.
                 }
 
                 &:hover, &:focus-within {
-                    background-color: $spacePanel-bg-color;
+                    background-color: $accent;
 
                     .mx_AccessibleButton {
                         visibility: visible;

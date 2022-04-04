@@ -147,7 +147,6 @@ export default class AppearanceUserSettingsTab extends React.Component<IProps, I
                 <div className="mx_SettingsTab_SubHeading">
                     { _t("Appearance Settings only affect this %(brand)s session.", { brand }) }
                 </div>
-                <ThemeChoicePanel />
                 <LayoutSwitcher
                     userId={this.state.userId}
                     displayName={this.state.displayName}

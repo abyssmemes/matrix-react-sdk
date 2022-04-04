@@ -109,7 +109,7 @@ limitations under the License.
         }
 
         &:hover {
-            background-color: $tertiary-content;
+            background-color: $accent;
 
             .mx_RoomSearch_icon {
                 background: $background;
@@ -132,7 +132,7 @@ limitations under the License.
         }
 
         &:hover {
-            background-color: $tertiary-content;
+            background-color: $accent;
 
             .mx_RoomSearch_spotlightTriggerText {
                 color: black;

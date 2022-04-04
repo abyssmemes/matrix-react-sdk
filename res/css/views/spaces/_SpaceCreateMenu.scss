@@ -20,7 +20,7 @@ $spacePanelWidth: 68px;
     // background blur everything except SpacePanel
     .mx_ContextualMenu_background {
         background-color: $dialog-backdrop-color;
-        opacity: 0.6;
+        opacity: 1;
         left: $spacePanelWidth;
     }
 
